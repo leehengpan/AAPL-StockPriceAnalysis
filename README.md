@@ -27,7 +27,7 @@ The plot shows the predictions of different models in the interpolated test set.
 - Lasso Regression performs the best (R<sup>2</sup>=0.99) since it linearly extrapolates when encountering outliers.
 - Support Vector Machine also performs decently because it handles outliers with non-linear extrapolation. 
 
-## Python Environment
+## Environment
 ```
 - python=3.10.5
 - matplotlib=3.5.2
