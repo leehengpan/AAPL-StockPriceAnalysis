@@ -19,7 +19,7 @@ For the linearly-interpolated dataset, I trained models with Lasso Regression, S
 Please see `src/Apple_Stock_Price_Prediction.ipynb` for more details.
 
 ## Results
-<img src="https://github.com/leehengpan/AAPL-StockPricePrediction/blob/main/figures/test_pred.png" width="600"/>
+<img src="https://github.com/leehengpan/AAPL-StockPricePrediction/blob/main/results/test_pred.png" width="600"/>
 
 The plot shows the predictions of different models in the interpolated test set.
 
