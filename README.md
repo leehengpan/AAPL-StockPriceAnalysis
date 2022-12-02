@@ -22,7 +22,7 @@ Please see `src/Apple_Stock_Price_Prediction.ipynb` for more details.
 The plot shows the predictions of different models in the interpolated test set.
 
 - Tree-based models (Random Forest and XGBoost) perform poorly on the dataset due to the property of the dataset and the splitting approach. Tree-based models always give a constant prediction when encountering an outlier. To be more specific, the tree models are trained with data from 1980 to 2004, whereas all of the data points in the test set (from 2014 to 2022) are well beyond the scope of the training set. That's the reason why both models give constant predictions in the test set.
-- Lasso Regression performs the best (R<sup>2</sup>=0.99) since it linearly extrapolates when encoutering outliers.
+- Lasso Regression performs the best (R<sup>2</sup>=0.99) since it linearly extrapolates when encountering outliers.
 - Support Vector Machine also performs decently because it handles outliers with non-linear extrapolation. 
 
 ## Python Environment
