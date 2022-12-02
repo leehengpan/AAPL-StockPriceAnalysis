@@ -12,7 +12,9 @@ The dataset is downloaded from [Kaggle](https://www.kaggle.com/datasets/whenaman
 ## Method
 I generated the feature matrix with the number of lag days of 10, i.e., predicting the closing price on a given date with features from its previous 10 days. I split the feature matrix with a 60%-20%-20% ratio without shuffling to avoid information leakage. I also standardized all the features.
 
-For the uninterpolated dataset, I trained an XGBoost model since it is one of the models that allow missing values. For the linearly-interpolated dataset, I trained models with Lasso Regression, Support Vector Machine, Random Forest, and XGBoost. The evaluation metric used is root-mean-square error (RMSE).
+For the uninterpolated dataset, I trained an XGBoost model since it is one of the models that allow missing values. 
+
+For the linearly-interpolated dataset, I trained models with Lasso Regression, Support Vector Machine, Random Forest, and XGBoost. The evaluation metric used is root-mean-square error (RMSE).
 
 Please see `src/Apple_Stock_Price_Prediction.ipynb` for more details.
 
