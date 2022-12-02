@@ -18,6 +18,6 @@ Please see `src/Apple_Stock_Price_Prediction.ipynb` for more details.
 
 ## Results
 <img src="https://github.com/leehengpan/AAPL-StockPricePrediction/blob/main/figures/test_pred.png" width="600"/>
-
+The plot shows the predictions of different models in the interpolated dataset. Lasso Regression performs the best (R<sup>2</sup>=0.99) since it only uses features from the previous day to make its predictions. Tree-based models (Random Forest and XGBoost) perform poorly on the dataset due to the property of the dataset and the splitting approach.
 
 ## Python Environment
