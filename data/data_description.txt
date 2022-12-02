@@ -1,0 +1,13 @@
+Date: Date of Listing (YYYY-MM-DD)	
+
+Open: Price when the market opens
+
+High: Highest recorded price for the day
+
+Low: Lowest recorded price for the day
+
+Close: Price when the market closes
+
+Adj Close: Modified closing price based on corporate actions
+
+Volume: Amount of stocks sold in a day
