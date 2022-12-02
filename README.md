@@ -4,7 +4,7 @@
 The goal is to build machine learning models that can predict Apple's stock closing prices. The approach I used in the project is **autoregression**. For a given date, the prices from its previous 10 days are used to predict the closing stock price on that date. Since stock data is missing for some dates (when the stock market is closed), I experimented with two different approaches-ML algorithms with XGBoost with an uninterpolated dataset vs. a linearly-interpolated dataset.
 
 ## Motivation
-This is my term project for DATA1030: Hands-on Data Science. Time series data is one of the most common data types that a data scientist handles on a daily basis. However, it is also one of the trickiest data types to deal with. Since I have little experience in analyzing time series, I believe this project would be an excellent opportunity for me to sharpen such skills.
+This is my term project for DATA1030: Hands-on Data Science at Brown University. Time series data is one of the most common data types that a data scientist handles on a daily basis. However, it is also one of the trickiest data types to deal with. Since I have little experience in analyzing time series, I believe this project would be an excellent opportunity for me to sharpen such skills.
 
 ## Data
 The dataset is downloaded from [Kaggle](https://www.kaggle.com/datasets/whenamancodes/alphabet-inc-google-founding-years-analysis) and can be found in the `data` folder. It contains Apple's stock prices from Dec. 15, 1980 to Sept. 19, 2022. The data is collected from Yahoo Finance.
